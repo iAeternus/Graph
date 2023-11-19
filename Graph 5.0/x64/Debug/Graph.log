@@ -1,0 +1,16 @@
+﻿  Test.cpp
+E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\include\Config.h(19,23): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\example\Test.h(265,30): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\include\Graph.h(322,1): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\include\Graph.h(312,1): message : 在编译 类 模板 成员函数“void mylib::Graph<int,int>::RemoveNode(int)”时
+E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\include\LGraph.h(14,1): message : 查看对正在编译的 类 模板 实例化“mylib::Graph<int,int>”的引用
+E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\example\TestGraph.h(16,29): message : 查看对正在编译的 类 模板 实例化“mylib::LGraph<int,int>”的引用
+E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\include\Graph.h(785,48): warning C4244: “参数”: 从“double”转换到“const _Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\include\Graph.h(782,1): message : 在编译 类 模板 成员函数“std::tuple<std::vector<int,std::allocator<int>>,std::vector<int,std::allocator<int>>,bool> mylib::Graph<int,int>::Bellman_Ford(int) const”时
+E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\include\LGraph.h(144,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\include\LGraph.h(121,1): message : 在编译 类 模板 成员函数“void mylib::LGraph<int,int>::RemoveNode(int)”时
+  Graph.vcxproj -> E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\x64\Debug\Graph.exe

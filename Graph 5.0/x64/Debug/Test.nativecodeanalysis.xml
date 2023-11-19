@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\include\</FILEPATH>
+      <FILENAME>Graph.h</FILENAME>
+      <LINE>232</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 Graph&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,Pipeline&gt;::numEdges。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>Graph&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,Pipeline&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Graph@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPipeline@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>232</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Graph&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,Pipeline&gt;::numEdges</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\include\</FILEPATH>
+      <FILENAME>Graph.h</FILENAME>
+      <LINE>232</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 Graph&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,Pipeline&gt;::numVertices。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>Graph&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,Pipeline&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Graph@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPipeline@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>232</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Graph&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,Pipeline&gt;::numVertices</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\include\</FILEPATH>
+      <FILENAME>Graph.h</FILENAME>
+      <LINE>558</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>Graph&lt;int,int&gt;::dfs</FUNCTION>
+    <DECORATED>?dfs@?$Graph@HH@@UEBAXXZ</DECORATED>
+    <FUNCLINE>555</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\include\</FILEPATH>
+      <FILENAME>LGraph.h</FILENAME>
+      <LINE>103</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>LGraph&lt;int,int&gt;::AddNode</FUNCTION>
+    <DECORATED>?AddNode@?$LGraph@HH@@UEAAXAEBH@Z</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\include\</FILEPATH>
+      <FILENAME>Graph.h</FILENAME>
+      <LINE>558</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>Graph&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,int&gt;::dfs</FUNCTION>
+    <DECORATED>?dfs@?$Graph@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@@UEBAXXZ</DECORATED>
+    <FUNCLINE>555</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\include\</FILEPATH>
+      <FILENAME>LGraph.h</FILENAME>
+      <LINE>103</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>LGraph&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,int&gt;::AddNode</FUNCTION>
+    <DECORATED>?AddNode@?$LGraph@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\include\</FILEPATH>
+      <FILENAME>Graph.h</FILENAME>
+      <LINE>558</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>Graph&lt;char,int&gt;::dfs</FUNCTION>
+    <DECORATED>?dfs@?$Graph@DH@@UEBAXXZ</DECORATED>
+    <FUNCLINE>555</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\include\</FILEPATH>
+      <FILENAME>LGraph.h</FILENAME>
+      <LINE>103</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>LGraph&lt;char,int&gt;::AddNode</FUNCTION>
+    <DECORATED>?AddNode@?$LGraph@DH@@UEAAXAEBD@Z</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Study\undergraduate\Develop\1.program\C++ program\2.data structure\6.Course design\Program\Graph\Graph 5.0\include\</FILEPATH>
+      <FILENAME>LGraph.h</FILENAME>
+      <LINE>113</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>LGraph&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,Pipeline&gt;::AddNode</FUNCTION>
+    <DECORATED>?AddNode@?$LGraph@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPipeline@@@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>109</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
